@@ -1,0 +1,77 @@
+:root {
+  --iris: hsl(235, 75%, 60%);  
+  --navyblue:#2E2F42;
+  --white: #FFF; 
+  --cloud: #F4F4FD;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height:24px;
+  letter-spacing: 0.32px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-link {
+ color: var(--navyblue);
+ font-size: 16px;
+ font-weight: 500;
+ letter-spacing: 0.32px;
+}
+
+.header-link:hover {
+  color: var(--iris);
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+}
+
+.logo:hover {
+  color: var(--iris);
+}
+
+.logo span {
+  color: var(--iris);
+}
+
+.Hero-Section {
+  background-color: #2E2F42;
+}
+
+.button {
+  color: var(--WHITE, #FFF);
+  text-align: center; 
+}
+
+.center {
+  text-align: center;
+}
+
+.footer-background {
+  background-color: #2E2F42;
+}
+.footer-background .logo {
+  text-decoration: none;
+  color: var(--cloud);
+ }
+
+ .footer-background .logo:hover {
+  color: var(--iris);
+ }
+
+ .footer-background p{
+  color: var(--cloud) ;
+ }
